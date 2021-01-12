@@ -1,0 +1,62 @@
+h1 {
+    font-size: 30px;
+    text-align: right;
+    color: orange;
+}
+
+p:first-letter {
+    font-size: 30px;
+    color: red;
+}
+
+em {
+    background-color: forestgreen;
+    color: white;
+}
+
+h2 {
+    font-size: 30px;
+    color: orange;
+}
+
+h2[title] {
+    color: blue;
+}
+
+span {
+    font-weight: bold;
+}
+
+ol > li {
+    color: red;
+}
+
+ol[title="gray"] > li {
+    color: gray;
+}
+
+ol[title="green"] > li {
+    color: green;
+}
+
+table {
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+    font-weight: bold;
+    background-color: white;
+}
+
+td[title="name"] {
+    color: orange;
+    background-color: white;
+}
+
+td[title=green]{
+    background-color: green;
+    color: white;
+}
+
+
