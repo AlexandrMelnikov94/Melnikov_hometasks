@@ -3,7 +3,6 @@ a {
     font-size: 25px;
     border-bottom: 2px solid;
     text-decoration: none;
-
 }
 
 a[href*="yandex"] {
@@ -18,4 +17,4 @@ span:after {
     content: "\21F1";
     color: #f70;
     padding: 2px;
-    }
+}
