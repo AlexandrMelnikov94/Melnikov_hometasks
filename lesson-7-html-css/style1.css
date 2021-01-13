@@ -20,7 +20,7 @@ h2 {
     color: blue;
 }
 
-h2:first-of-type{
+h2:first-of-type {
     color: orange;
 }
 
@@ -49,10 +49,13 @@ td {
     border: 1px solid black;
     font-weight: bold;
     background-color: white;
+    padding: 0 25px;
 }
 
 tr:nth-child(n+3) td:first-child {
     color: orange;
+    text-align: left;
+    padding: 0;
 }
 
 tr:nth-child(n+3) td:nth-child(n+2) {
@@ -60,3 +63,6 @@ tr:nth-child(n+3) td:nth-child(n+2) {
     color: white;
 }
 
+.container {
+    padding: 0 34%;
+}
