@@ -1,79 +1,57 @@
-table {
-    display: inline-block;
-    /*border-spacing: 3.6px 0;*/
-}
-
 a {
     text-decoration: none;
     color: #A13BCF;
 }
 
-table tr > td {
-    padding: 3px 5px;
+span {
+    display: inline-block;
+    vertical-align: 1px;
+}
+
+nav > ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
     border: 1px solid #EAEAEA;
     border-radius: 4px;
-    color: #A13BCF;
-    text-align: center;
-    font-size: 7px;
-    font-weight: bold;
+    font-size: 10px;
+    padding: 5px 8px;
+    margin: 2px 1px;
 }
 
-table tr > td:nth-child(-n+2) {
+nav li:nth-child(-n+2),
+nav li:nth-last-child(-n+2) {
     border: none;
 }
 
-table tr > td:nth-last-child(-n+2) {
-    border: none;
+nav ul li:hover {
+    background-color: #A13BCF;
+    border-color: #7C22B8;
 }
 
-table tr > td:nth-child(5) {
+nav ul li:hover a {
+    color: white;
+}
+
+nav li:nth-child(5) {
+    color: black;
     border: none;
     vertical-align: bottom;
     padding: 0 7px;
-    color: black;
+    margin: 5px 0;
 }
 
-table tr > td:nth-child(7) {
-    background-color: #A13BCF;
+nav li:nth-child(5):hover {
+    background-color: white;
+}
+
+nav li:nth-child(7) {
     border-color: #7C22B8;
-}
-
-table tr > td:nth-child(5):hover {
-    background-color: white;
-    color: black;
-}
-
-
-table td:hover {
     background-color: #A13BCF;
-    color: white;
-    border-color: #7C22B8;
 }
 
-table td:hover a {
-    color: white;
-}
-
-table tr > td:nth-child(-n+2):hover {
-    background-color: white;
-    color: #7C22B8;
-    text-decoration: underline;
-}
-
-table tr > td:nth-last-child(-n+2):hover {
-    background-color: white;
-    color: #7C22B8;
-    text-decoration: underline;
-}
-
-table tr > td:nth-child(-n+2):hover > a {
-    color: #7C22B8;
-}
-
-table tr > td:nth-last-child(-n+2):hover > a {
-    color: #7C22B8;
-}
-
-table tr > td:nth-child(7) > a{
+nav li:nth-child(7) > a {
     color: white;
 }
