@@ -1,0 +1,120 @@
+body {
+    padding: 30px 0;
+    margin: 0 40%;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+h2:first-child {
+    margin-top: 23px;
+}
+
+h3 {
+    font-size: 71px;
+    padding: 0;
+    margin: -20px;
+}
+
+span {
+    padding: 0 14px 0 32px;
+}
+
+.card {
+    background-color: aliceblue;
+    height: 459px;
+    width: 287px;
+    border: 4px solid #EE8129;
+    border-radius: 3px;
+    box-shadow: 0 0 7px 4px rgb(214, 232, 241);
+}
+
+.card-header {
+    background-color: #EE8129;
+    color: white;
+    height: 72px;
+    width: 287px;
+    border: 1px solid #EE8129;
+    margin-left: -1px;
+    margin-top: -1px;
+    text-align: center;
+}
+
+.card-body {
+    position: relative;
+    background-color: white;
+    height: 385px;
+    width: 287px;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.card-price {
+    position: absolute;
+    background-color: white;
+    height: 150px;
+    width: 90%;
+    margin: 2% 5%;
+    text-align: center;
+    color: #34495A;
+}
+
+.card-price sup {
+    display: inline-block;
+    font-size: 21px;
+    vertical-align: 38px;
+}
+
+.card-price sub {
+    display: inline-block;
+    font-size: 18px;
+    vertical-align: -12px;
+}
+
+.card-price h2 {
+    margin-top: 13px;
+    margin-bottom: 30px;
+}
+
+.card-describe {
+    position: absolute;
+    background-color: white;
+    margin: 157px 5% 0 5%;
+    width: 90%;
+    text-align: center;
+    color: #9EA1A7;
+}
+
+.card-describe ul {
+    padding: 0;
+    margin: 5px 0;
+}
+
+.card-describe li {
+    list-style-type: none;
+    text-align: left;
+    background-color: #F5F5F6;
+    padding: 7px 0;
+    border: 1px solid white;
+}
+
+.card-describe li:nth-child(2n+1) {
+    background-color: #EDF5FD;
+}
+
+.card-button {
+    position: absolute;
+    background-color: #EE8129;
+    width: 88%;
+    height: 38px;
+    margin: 316px 6% 0 6%;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 0 3px 0 rgb(180, 87, 12);
+}
+
+.card-button p {
+    margin-top: 12px;
+    margin-left: -1px;
+}
