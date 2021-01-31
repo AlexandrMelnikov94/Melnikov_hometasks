@@ -1,0 +1,37 @@
+* {
+    font-family: 'Oswald', seans-serif;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-size: 1.85vw;
+}
+
+nav {
+    padding-left: 1.1vw;
+    background-color: #A64DFF;
+}
+
+nav li {
+    display: inline;
+}
+
+.menu li a {
+    padding: 0.45vw 1.1vw 0.45vw 1.2vw;
+    text-decoration: none;
+    color: white;
+    line-height: 3.6vw;
+}
+
+span {
+    margin-left: 25.7%;
+}
+
+.menu li a:hover {
+    background-color: #F2EBEF;
+    color: #AFB1B0;
+}
+
+.menu {
+    padding: 0 5%;
+    height: 100%;
+}
