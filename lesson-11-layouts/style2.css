@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    height: 285px;
+    background-color: black;
+    overflow: auto;
+}
+
+.wrapper {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0 auto;
+    max-width: 1227px;
+    min-width: 1227px;
+}
+
+img {
+    height: 91px;
+    position: absolute;
+    margin-top: 124px;
+}
+
+
+img:first-of-type {
+    margin-left: 148px;
+}
+
+img:last-of-type {
+    margin-left: 638px;
+}
+
+h2 {
+    position: absolute;
+    text-align: center;
+    margin: 45px 0;
+    text-transform: uppercase;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 36px;
+    color: #3271AA;
+    max-width: 1227px;
+    min-width: 1227px;
+}
+
+h2 > span {
+    color: #b3560b;
+}
+
+.kbives-ninja-comment, .ponsy-deer-comment {
+    box-sizing: border-box;
+    position: absolute;
+    background-color: white;
+    height: 88px;
+    width: 329px;
+    margin-top: 124px;
+    padding: 13px 15px 0 13px;
+    font-size: 13px;
+}
+
+.kbives-ninja-comment {
+    margin-left: 262px;
+}
+
+.ponsy-deer-comment {
+    margin-left: 752px;
+}
+
+.customer-name > span {
+    float: right;
+}
+
+.customer-name {
+    font-style: italic;
+    border-bottom: 2px dotted #A49EAA;
+    padding-bottom: 7px;
+    margin: 0;
+    color: #3271AA;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.customer-text {
+    margin-top: 7px;
+    color: #A49EAA;
+}
+
+.triangle {
+    position: absolute;
+    width: 1px;
+    border: 15px solid;
+    border-color: transparent white transparent transparent;
+    padding: 0;
+    margin-left: 233px;
+    margin-top: 158px;
+}
+
+.ninja {
+    margin-left: 233px;
+}
+
+.deer {
+    margin-left: 722px;
+}
