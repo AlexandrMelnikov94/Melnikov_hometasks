@@ -1,3 +1,7 @@
+main {
+    height: 50vw;
+}
+
 body {
     background: url("../images/plans-background.jpg") no-repeat ;
     background-size: 100%;
