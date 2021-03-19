@@ -1,0 +1,58 @@
+@import "../../style.css";
+
+:root {
+  --nav__item-bg-color: var(--beauty-bush);
+  --nav__item-text-color: var(--stiletto);
+  --nav__item-hover-bg-color: var(--mandys-pink);
+  --nav__item-hover-color: var(--pharlap);
+  --nav__item-activ-color: var(--tonys-pink);
+}
+
+* {
+  margin: 0;
+}
+
+.nav__items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 5em;
+  background-color: var(--nav__item-bg-color);
+  list-style-type: none;
+}
+
+.nav__item {
+  margin: 0 1rem;
+}
+
+.nav__item a {
+  box-sizing: border-box;
+  padding: 1em 1em;
+  border-radius: 0.2em;
+  background-color: var(--nav__item-bg-color);
+  color: var(--nav__item-text-color);
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.035em;
+  transition: 0.9s;
+  cursor: pointer;
+}
+
+.nav__item a:hover {
+  color: var(--pharlap);
+  background-color: var(--mandys-pink);
+  box-shadow: 0 0.25em 0.4em rgba(50, 50, 93, .11), 0 0.1em 0.25em rgba(0, 0, 0, .08);
+  transition: 0.2s;
+}
+
+.nav__item a:active {
+  background-color: var(--stiletto);
+  color: var(--nav__item-activ-color);
+  transition: 0.2s;
+}
